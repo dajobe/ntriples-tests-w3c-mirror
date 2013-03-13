@@ -1,0 +1,2 @@
+# Relative IRIs not allowed
+<http://example/s> <http://example/p> <o> .

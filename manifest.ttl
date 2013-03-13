@@ -33,6 +33,10 @@
     <#nt-syntax-bad-uri-03>
     <#nt-syntax-bad-uri-04>
     <#nt-syntax-bad-uri-05>
+    <#nt-syntax-bad-uri-06>
+    <#nt-syntax-bad-uri-07>
+    <#nt-syntax-bad-uri-08>
+    <#nt-syntax-bad-uri-09>
     <#nt-syntax-bad-prefix-01>
     <#nt-syntax-bad-base-01>
     <#nt-syntax-bad-struct-01>
@@ -184,6 +188,30 @@
    mf:name    "nt-syntax-bad-uri-05" ;
    rdfs:comment "Bad IRI : character escapes not allowed (2) (negative test)" ;
    mf:action    <nt-syntax-bad-uri-05.nt> ;
+   .
+
+<#nt-syntax-bad-uri-06> rdf:type rdft:TestNTriplesNegativeSyntax ;
+   mf:name    "nt-syntax-bad-uri-06" ;
+   rdfs:comment "Bad IRI : relative IRI not allowed in subject (negative test)" ;
+   mf:action    <nt-syntax-bad-uri-06.nt> ;
+   .
+
+<#nt-syntax-bad-uri-07> rdf:type rdft:TestNTriplesNegativeSyntax ;
+   mf:name    "nt-syntax-bad-uri-07" ;
+   rdfs:comment "Bad IRI : relative IRI not allowed in predicate (negative test)" ;
+   mf:action    <nt-syntax-bad-uri-07.nt> ;
+   .
+
+<#nt-syntax-bad-uri-08> rdf:type rdft:TestNTriplesNegativeSyntax ;
+   mf:name    "nt-syntax-bad-uri-08" ;
+   rdfs:comment "Bad IRI : relative IRI not allowed in object (negative test)" ;
+   mf:action    <nt-syntax-bad-uri-08.nt> ;
+   .
+
+<#nt-syntax-bad-uri-09> rdf:type rdft:TestNTriplesNegativeSyntax ;
+   mf:name    "nt-syntax-bad-uri-09" ;
+   rdfs:comment "Bad IRI : relative IRI not allowed in datatype (negative test)" ;
+   mf:action    <nt-syntax-bad-uri-09.nt> ;
    .
 
 <#nt-syntax-bad-prefix-01> rdf:type rdft:TestNTriplesNegativeSyntax ;
