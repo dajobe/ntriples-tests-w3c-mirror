@@ -51,7 +51,7 @@
     <#nt-syntax-bad-num-01>
     <#nt-syntax-bad-num-02>
     <#nt-syntax-bad-num-03>
-    <#turtle-subm-01>
+    <#nt-syntax-subm-01>
     ) .
 
 <#nt-syntax-file-01> rdf:type rdft:TestNTriplesPositiveSyntax ;
