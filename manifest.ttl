@@ -41,7 +41,6 @@
     <#nt-syntax-bad-esc-01>
     <#nt-syntax-bad-esc-02>
     <#nt-syntax-bad-esc-03>
-    <#nt-syntax-bad-esc-04>
     <#nt-syntax-bad-string-01>
     <#nt-syntax-bad-string-02>
     <#nt-syntax-bad-string-03>
@@ -112,7 +111,7 @@
 <#nt-syntax-string-03> rdf:type rdft:TestNTriplesPositiveSyntax ;
    mf:name    "nt-syntax-string-03" ;
    rdfs:comment "langString literal with region" ;
-   mf:action    <ntnt-syntax-string-03.nt> ;
+   mf:action    <nt-syntax-string-03.nt> ;
    .
 
 <#nt-syntax-str-esc-01> rdf:type rdft:TestNTriplesPositiveSyntax ;
@@ -233,12 +232,6 @@
    mf:name    "nt-syntax-bad-esc-03" ;
    rdfs:comment "Bad string escape (negative test)" ;
    mf:action    <nt-syntax-bad-esc-03.nt> ;
-   .
-
-<#nt-syntax-bad-esc-04> rdf:type rdft:TestNTriplesNegativeSyntax ;
-   mf:name    "nt-syntax-bad-esc-04" ;
-   rdfs:comment "Bad string escape (negative test)" ;
-   mf:action    <nt-syntax-bad-esc-04.nt> ;
    .
 
 <#nt-syntax-bad-string-01> rdf:type rdft:TestNTriplesNegativeSyntax ;
