@@ -375,7 +375,7 @@
    mf:name      "comment_following_triple" ;
    rdfs:comment "Tests comments after a triple" ;
    rdft:approval rdft:Proposed ;
-   mf:action    <comment_following_triple.ttl> ;
+   mf:action    <comment_following_triple.nt> ;
    .
 
 <#LITERAL_LONG1_ascii_boundaries> rdf:type rdft:TestNTriplesPositiveSyntax ;
@@ -386,10 +386,10 @@
    .
 
 <#LITERAL_LONG1_with_UTF8_boundaries> rdf:type rdft:TestNTriplesPositiveSyntax ;
-   mf:name      "LITERAL_LONG1_with_UTF8_boundaries" ;
-   rdfs:comment "LITERAL_LONG1_with_UTF8_boundaries '\\x80\\x7ff\\x800\\xfff...'" ;
+   mf:name      "LITERAL_with_UTF8_boundaries" ;
+   rdfs:comment "LITERAL_with_UTF8_boundaries '\\x80\\x7ff\\x800\\xfff...'" ;
    rdft:approval rdft:Proposed ;
-   mf:action    <LITERAL_LONG1_with_UTF8_boundaries.nt> ;
+   mf:action    <LITERAL_with_UTF8_boundaries.nt> ;
    .
 
 <#LITERAL_LONG1_with_1_squote> rdf:type rdft:TestNTriplesPositiveSyntax ;
