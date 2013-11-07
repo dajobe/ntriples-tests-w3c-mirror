@@ -67,7 +67,7 @@
     <#LITERAL_with_2_squotes>
     <#LITERAL_with_dquote>
     <#LITERAL_with_2_dquotes>
-    <#LITERAL_with_REVERSE_SOLIDUS>
+    <#LITERAL_with_REVERSE_SOLIDUS2>
     <#literal_with_CHARACTER_TABULATION>
     <#literal_with_BACKSPACE>
     <#literal_with_LINE_FEED>
@@ -432,7 +432,7 @@
    mf:action    <LITERAL_with_2_dquotes.nt> ;
    .
 
-<#LITERAL_with_REVERSE_SOLIDUS> rdf:type rdft:TestNTriplesPositiveSyntax ;
+<#LITERAL_with_REVERSE_SOLIDUS2> rdf:type rdft:TestNTriplesPositiveSyntax ;
    mf:name    "LITERAL_with_REVERSE_SOLIDUS2" ;
    rdfs:comment "REVERSE SOLIDUS at end of LITERAL" ;
    rdft:approval rdft:Proposed ;
