@@ -420,7 +420,7 @@
 
 <#LITERAL_with_dquote> rdf:type rdft:TestNTriplesPositiveSyntax ;
    mf:name      "LITERAL_with_dquote" ;
-   rdfs:comment 'LITERAL with dquote "x\"y"; ;
+   rdfs:comment 'LITERAL with dquote "x\"y"' ;
    rdft:approval rdft:Proposed ;
    mf:action    <LITERAL_with_dquote.nt> ;
    .
