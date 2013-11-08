@@ -84,6 +84,7 @@
     <#langtagged_non_LONG>
     <#langtagged_LONG>
     <#lantag_with_subtag>
+    <#minimal_whitespace>
     ) .
 
 <#nt-syntax-file-01> rdf:type rdft:TestNTriplesPositiveSyntax ;
@@ -549,4 +550,11 @@
    rdfs:comment "lantag with subtag \"x\"@en-us" ;
    rdft:approval rdft:Proposed ;
    mf:action    <lantag_with_subtag.nt> ;
+   .
+
+<#minimal_whitespace> rdf:type rdft:TestNTriplesPositiveSyntax ;
+   mf:name      "minimal_whitespace" ;
+   rdfs:comment "tests absense of whitespace between subject, predicate, object and end-of-statement" ;
+   rdft:approval rdft:Proposed ;
+   mf:action    <minimal_whitespace.nt> ;
    .
