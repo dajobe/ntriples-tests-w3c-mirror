@@ -68,7 +68,6 @@
     <#literal_with_CARRIAGE_RETURN>
     <#literal_with_CHARACTER_TABULATION>
     <#literal_with_dquote>
-    <#literal_with_escaped_FORM_FEED>
     <#literal_with_escaped_LINE_FEED>
     <#literal_with_FORM_FEED>
     <#literal_with_LINE_FEED>
@@ -483,13 +482,6 @@
    rdfs:comment "literal with escaped LINE FEED" ;
    rdft:approval rdft:Proposed ;
    mf:action    <literal_with_LINE_FEED.nt> ;
-   .
-
-<#literal_with_escaped_FORM_FEED> rdf:type rdft:TestNTriplesPositiveSyntax ;
-   mf:name      "literal_with_escaped_FORM_FEED" ;
-   rdfs:comment "literal with escaped FORM FEED" ;
-   rdft:approval rdft:Proposed ;
-   mf:action    <literal_with_FORM_FEED.nt> ;
    .
 
 <#literal_with_numeric_escape4> rdf:type rdft:TestNTriplesPositiveSyntax ;
