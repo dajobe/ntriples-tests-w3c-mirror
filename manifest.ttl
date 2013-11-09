@@ -68,7 +68,6 @@
     <#literal_with_CARRIAGE_RETURN>
     <#literal_with_CHARACTER_TABULATION>
     <#literal_with_dquote>
-    <#literal_with_escaped_BACKSPACE>
     <#literal_with_escaped_CARRIAGE_RETURN>
     <#literal_with_escaped_CHARACTER_TABULATION>
     <#literal_with_escaped_FORM_FEED>
@@ -486,13 +485,6 @@
    rdfs:comment "literal with escaped CHARACTER TABULATION" ;
    rdft:approval rdft:Proposed ;
    mf:action    <literal_with_CHARACTER_TABULATION.nt> ;
-   .
-
-<#literal_with_escaped_BACKSPACE> rdf:type rdft:TestNTriplesPositiveSyntax ;
-   mf:name      "literal_with_escaped_BACKSPACE" ;
-   rdfs:comment "literal with escaped BACKSPACE" ;
-   rdft:approval rdft:Proposed ;
-   mf:action    <literal_with_BACKSPACE.nt> ;
    .
 
 <#literal_with_escaped_LINE_FEED> rdf:type rdft:TestNTriplesPositiveSyntax ;
