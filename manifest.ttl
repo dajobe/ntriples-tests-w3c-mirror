@@ -81,8 +81,7 @@
     <#literal_with_REVERSE_SOLIDUS2>
     <#literal_with_squote>
     <#literal_with_UTF8_boundaries>
-    <#langtagged_non_LONG>
-    <#langtagged_LONG>
+    <#langtagged_string>
     <#lantag_with_subtag>
     <#minimal_whitespace>
     ) .
@@ -531,18 +530,11 @@
    mf:action    <literal_with_numeric_escape4.nt> ;
    .
 
-<#langtagged_non_LONG> rdf:type rdft:TestNTriplesPositiveSyntax ;
-   mf:name      "langtagged_non_LONG" ;
-   rdfs:comment "langtagged non-LONG \"x\"@en" ;
+<#langtagged_string> rdf:type rdft:TestNTriplesPositiveSyntax ;
+   mf:name      "langtagged_string" ;
+   rdfs:comment "langtagged string \"x\"@en" ;
    rdft:approval rdft:Proposed ;
-   mf:action    <langtagged_non_LONG.nt> ;
-   .
-
-<#langtagged_LONG> rdf:type rdft:TestNTriplesPositiveSyntax ;
-   mf:name      "langtagged_LONG" ;
-   rdfs:comment "langtagged LONG \"\"\"x\"\"\"@en" ;
-   rdft:approval rdft:Proposed ;
-   mf:action    <langtagged_non_LONG.nt> ;
+   mf:action    <langtagged_string.nt> ;
    .
 
 <#lantag_with_subtag> rdf:type rdft:TestNTriplesPositiveSyntax ;
